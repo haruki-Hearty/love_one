@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="#">
+		<title>CONTACT</title>
+		<meta name="description" content="CONTACT Description">
+		<meta property="og:title" content="CONTACT">
+		<meta property="og:description" content="">
+		<meta property="og:url" content=" ページの URL">
+		<meta property="og:image" content="">
+		<meta property="og:type" content="article">
+		<meta property="og:site_name" content="">
+		<meta property="og:locale" content="ja_JP">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="">
+		<meta name="twitter:title" content="サンプル">
+		<meta name="twitter:url" content="">
+		<meta name="twitter:description" content="サンプル">
+		<meta name="twitter:image" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="./assets/css/style.css">
+	</head>
+	<body>
+		<header class="l-lower-header p-lower-header">
+			<div class="p-lower-header__inner">
+				<div class="p-lower-header__logo">
+					<a href="index.html"><img class="c-logo" src="./assets/images/logo.svg" alt="loveone"></a>
+				</div>
+				<button type="button" class="c-buger-button js-buger-button c-buger-button--lower">
+					<span class="c-buger-button__line"></span>
+				</button>
+				<nav class="p-lower-header__nav-sp p-nav p-nav--sp">
+					<ul class="p-nav__lists font-family-en">
+						<li class="p-nav__list p-nav__list--logo">
+							<a href="index.html"><img class="c-logo" src="./assets/images/logo.svg" alt="loveone"></a>
+						</li>
+						<li class="p-nav__list"><a href="index.html">home</a></li>
+						<li class="p-nav__list"><a href="works.html">works</a></li>
+						<li class="p-nav__list"><a href="company.html">company</a></li>
+						<li class="p-nav__list"><a href="contact.html">contact</a></li>
+					</ul>
+				</nav>
+				<div class="p-lower-header__nav-pc p-lower-nav">
+					<nav>
+						<ul class="p-lower-nav__lists font-family-en">
+							<li class="p-lower-nav__list"><a href="index.html">home</a></li>
+							<li class="p-lower-nav__list"><a href="works.html">works</a></li>
+							<li class="p-lower-nav__list"><a href="company.html">company</a></li>
+							<li class="p-lower-nav__list"><a href="contact.html">contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="p-contact">
+			<article>
+				<section class="l-lower-mv p-lower-mv">
+					<h1 class="c-mv-title font-family-en">contact</h1>
+					<picture class="p-lower-mv__wrapper">
+						<source type="image/webp" srcset="./assets/images/webp/p-contact-mv-1.webp">
+						<img src="./assets/images/p-contact-mv-1.jpg" alt="">
+					</picture>
+				</section>
+				<div class="l-inner p-contact__inner">
+					<h2 class="p-contact__lead">お問い合わせ内容は下記フォームに<br class="u-mobile">ご入力をお願いいたします。<br>なお、内容によっては返信にお時間を頂く場合や回答できない場合がございます。</h2>
+					<div class="p-contact__form p-form">
+						<div class="p-form__inner">
+							<form id="" method="post" action="contact.php">
+								<p class="p-form__item p-form__item--name">
+									<label for="お名前">お名前<br><small style="color:#ff0000;">※入力必須</small></label>
+									<input name="お名前" class="p-form__text" type="text" id="name" placeholder="入力してください">
+								</p>
+								<p class="p-form__item p-form__item--company">
+									<label for="会社名">会社名</label><input name="会社名" class="p-form__text" type="text" id="company" placeholder="入力してください">
+								</p>
+								<p class="p-form__item p-form__item--radio">
+									<label for="ご連絡について">ご連絡について<br><small style="color:#ff0000;">※入力必須</small></label>
+									<span class="p-form__radio-wrapper"><span class="p-form__radio"><input type="radio" name="ご連絡について" value="電話で折り返してほしい">電話で折り返してほしい</span><span class="p-form__radio"><input type="radio" name="ご連絡について" value="メールで折り返してほしい" checked="checked">メールで折り返してほしい</span></span>
+								</p>
+								<p class="p-form__item p-form__item--mail">
+									<label for="Email">メールアドレス<br><small style="color:#ff0000;">※入力必須</small></label>
+									<input name="Email" class="p-form__text" type="text" id="email" placeholder="sample@mail.com">
+								</p>
+								<p class="p-form__item p-form__item--tel">
+									<label for="電話番号">電話番号<br><small style="color:#ff0000;">※入力必須</small></label>
+									<input name="電話番号" class="p-form__text" type="tel" id="phone" placeholder="入力してください">
+								</p>
+								<p class="p-form__item p-form__item--select">
+									<label for="お問い合わせ種類">お問い合わせ種類<br><small style="color:#ff0000;">※入力必須</small></label>
+									<select name="お問い合わせ種類" size="1" id="select">
+										<option value="">選択して下さい</option>
+										<option value="サンプル１">サンプル１</option>
+										<option value="サンプル2">サンプル2</option>
+										<option value="サンプル3">サンプル3</option>
+										<option value="サンプル4">サンプル4</option>
+									</select>
+								</p>
+								<p class="p-form__item p-form__item--textarea">
+									<label for="お問い合わせ内容詳細">お問い合わせ内容詳細<br><small style="color:#ff0000;">※入力必須</small></label>
+									<textarea name="お問い合わせ内容詳細" id="textarea" cols="30" rows="10" placeholder="入力して下さい"></textarea>
+								</p>
+								<div class="p-form__button">
+								<button type="submit" class="c-button c-button--contact">メッセージを送信する</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</article>
+		</main>
+		<footer class="l-footer p-footer">
+			<div class="p-footer__inner">
+				<div class="p-footer__nav">
+					<ul class="p-footer__nav-lists">
+						<li class="p-footer__nav-list"><a href="index.html">home</a></li>
+						<li class="p-footer__nav-list"><a href="works.html">works</a></li>
+						<li class="p-footer__nav-list"><a href="company.html">company</a></li>
+						<li class="p-footer__nav-list"><a href="contact.html">contact</a></li>
+					</ul>
+				</div>
+				<div class="p-footer__info">
+					<h2 class="p-footer__logo">
+						<a href="index.html">loveone inc.</a>
+					</h2>
+					<address class="p-footer__address">meguro g bldg. 7F<br>1-4-16 meguro, meguro-ku, tokyo JAPAN<br>zip. 153-0063</address>
+				</div>
+			</div>
+			<small class="p-footer__copyright">Copyrights (c) by LOVEONE All Rights Reserved.</small>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="./assets/js/index.js"></script>
+	</body>
+</html>
